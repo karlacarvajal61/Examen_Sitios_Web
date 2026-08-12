@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $font-family-primary;
+    margin: 0;
+}
+h1{
+    font-size: $font-size-h1;
+    font-weight: 600;
+    line-height: 1.15;
+        
+    span {
+        color: $color-accent;
+        font-weight: 800;
+    }
+}
+
+p{
+    font-size: $font-size-p;
+    color: $color-primary;
+    line-height: 1.5;
+    
+    span{
+        font-weight: 800;
+    }
+}
+
+a{
+    font-size: $font-size-h2;
+    color: $color-primary;
+    text-decoration: none;
+    background-color: transparent;
+}

@@ -1,0 +1,32 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $background-white;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 30px;
+    max-width: 100%;
+}
+
+.btn-verde{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    border-radius: 6px;
+    color:$background-white;
+    background-color: $color-accent;
+    font-size: $font-size-p;
+    padding: 12px 32px;
+}
+
+.icon-wa{
+    height: 20px;
+    width: 20px;
+}
